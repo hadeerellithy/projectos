@@ -1,0 +1,392 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.landing_page
+ {
+    min-height: 600vh;
+    background-image: url(wavy-background.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.video video {
+    width: 100%;
+
+}
+
+.video .text {
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 17%;
+}
+
+.video .text h1 {
+
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.video .text h2 {
+
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.video .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 0 40px 0px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    box-shadow: 0px 25px 25px 0px black inset;
+
+}
+
+.video .logo .logoo img {
+    width: 205px;
+    height: 78px;
+    margin-left: 3%;
+
+}
+
+.video .logo .logoo img:hover {
+    box-shadow: -1px 1px 10px 0px white;
+}
+
+.video .logo .person img {
+    position: absolute;
+    top: 67px;
+    right: 100px;
+}
+
+.video .logo .person img:hover {
+    box-shadow: -1px 1px 10px 0px white;
+}
+
+.video .logo .gps img {
+    position: absolute;
+    top: 67px;
+    right: 40px;
+}
+
+.video .logo .gps img:hover {
+    box-shadow: -1px 1px 10px 0px white;
+}
+
+.video .logo .links {
+    position: absolute;
+    right: 14%;
+    top: 50px;
+}
+
+.video .logo .links li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.video .logo .links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+}
+
+.video .logo .links a:hover {
+    border-bottom: 3px solid;
+}
+.linkss ul {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    background-color: rgb(181, 17, 68);
+    height: 80px;
+    position: absolute;
+    top: 390px;
+    
+}
+.linkss ul li {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px;
+    left: 20%;
+}
+.linkss ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px; 
+    border-bottom: 3px solid transparent;
+    transition: 0.3s; 
+}
+
+.linkss a:hover {
+    border-bottom: 3px solid;
+}
+
+.pictures {
+    background-color: white;
+    position: relative;
+    margin: 200px 120px ;
+    padding: 20px 100px;
+}
+.pictures img {
+    height: 200px;
+    width: 380px;
+    padding: 10px;
+}
+.pictures .text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    text-align: left;
+    position: relative;
+    bottom: 15px;
+}
+.pictures h1 {
+    color: rgb(109, 31, 55);
+    font-weight: bold;
+
+}
+.pictures p {
+    font-size: 18px;
+}
+.pictures .picture1 {
+    padding: 20px 40px;
+    display: inline-flex;
+
+}
+.pictures .picture2 {
+    padding: 20px 40px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    
+}
+
+.pictures .picture3 {
+    padding: 20px 40px;
+    display: inline-flex;
+}
+.pictures .picture4 {
+    padding: 20px 40px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+.pictures .picture5 {
+    padding: 20px 40px;
+    display: inline-flex;
+}
+.pictures .picture6 {
+    padding: 20px 40px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+.picture7 {
+    background-color: rgb(244 243 239);
+    width: 100%;
+    position: relative;
+    bottom: 110px;
+}
+.picture7 img {
+    position: relative;
+    width: 50%;
+}
+.picture7 .text {
+    float: right;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 70px;
+}
+.picture7 h1 {
+    color: rgb(109, 31, 55);
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.picture7 p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 0px;
+}
+.picture7 a {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(109, 31, 55);
+    padding: 15px 35px;
+    margin-top: 40px;
+
+}
+.picture7 a::after {
+    content: '';
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 7px solid white;
+    margin-left: 10px;
+}
+
+
+.picture7 a:hover {
+    background: rgb(183 22 72);
+}
+.picture8 {
+    background-color: white;
+    padding: 30px 60px ;
+    display: inline-flex;
+    position: absolute;
+    left: 8%;
+    width: 75%;
+
+    
+}
+.picture8 img {
+    height: 220px;
+    width: 310px;
+    position: relative;
+    left: 80px;
+}
+.picture8 h1 {
+    color: rgb(109, 31, 55);
+    font-weight: bold;
+    font-size: 26px;
+}
+.picture8 p {
+    font-size: 18px;
+}
+.picture8 a {
+    color: rgb(109, 31, 55);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+.picture8 a:hover {
+    color: rgb(183 22 72);
+}
+.picture8 a::after {
+    content: '';
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 7px solid rgb(109, 31, 55);
+    margin-left: 10px;
+}
+
+
+.footer {
+    background: rgb(181 17 68);
+    color: white;
+    position: absolute;
+    top: 3400px;
+    width: 100%;
+    height: 650px;
+    padding: 0;
+}
+
+.footer .links {
+    position: absolute;
+    color: white;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 120px ;
+    margin-right: 0;
+    
+}
+
+
+.footer h1 
+{
+    color: white;
+    font-weight: bold;
+    margin: 0px 0px 40px;
+    font-size: 20px;
+}
+
+.footer ul {
+    box-sizing: inherit;
+    padding: 20px 20px 20px 10px;
+    list-style: none;
+    margin: 0px;
+}
+.footer ul li {
+    padding: 0 10px 10px 0;
+}
+.footer ul li a {
+    list-style-type: none;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.page_end {
+
+    background: rgb(109, 31, 55);
+    color: white;
+    position: absolute;
+    top: 4050px;
+    width: 100%;
+    padding: 0;
+
+}
+.page_end .end {
+    padding: 20px;
+}
+.page_end .end .links ul a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-weight: bolder;
+    padding: 15px;
+}
+.page_end p {
+    position: absolute;
+    color:white;
+    right: 20%;
+    top: 22%;
+    margin: 0px 0px 28px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.page_end .social_media ul a {
+    padding: 10px;
+}
+.page_end .social_media span img {
+    height: 26px;
+    width: 12px;
+}
