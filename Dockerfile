@@ -1,3 +1,3 @@
 FROM nginx:alpine
 
-COPY C:/Users/hadee/OneDrive/Desktop/Project-os_2/Project /usr/share/nginx/html
+COPY home.html /usr/share/nginx/html
